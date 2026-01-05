@@ -19,15 +19,15 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.dentalcare.customerService.dto.ConsultationDTO;
-import com.dentalcare.customerService.dto.CustomerDTO;
-import com.dentalcare.customerService.entity.ConsultationEntity;
-import com.dentalcare.customerService.entity.Customer;
-import com.dentalcare.customerService.repository.ConsultationRep;
-import com.dentalcare.customerService.repository.CustomerRepository;
-import com.dentalcare.customerService.service.CustomerServiceImpl;
-import com.dentalcare.customerService.util.HelperForConversion;
-import com.dentalcare.customerService.util.Response;
+import com.bookmydent.customerService.dto.ConsultationDTO;
+import com.bookmydent.customerService.dto.CustomerDTO;
+import com.bookmydent.customerService.entity.ConsultationEntity;
+import com.bookmydent.customerService.entity.Customer;
+import com.bookmydent.customerService.repository.ConsultationRep;
+import com.bookmydent.customerService.repository.CustomerRepository;
+import com.bookmydent.customerService.service.CustomerServiceImpl;
+import com.bookmydent.customerService.util.HelperForConversion;
+import com.bookmydent.customerService.util.Response;
 
 @ExtendWith(MockitoExtension.class)
 public class CustomerServiceImplTest {

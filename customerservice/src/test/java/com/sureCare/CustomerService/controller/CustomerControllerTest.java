@@ -20,12 +20,12 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
-import com.dentalcare.customerService.controller.CustomerController;
-import com.dentalcare.customerService.dto.ConsultationDTO;
-import com.dentalcare.customerService.dto.CustomerDTO;
-import com.dentalcare.customerService.entity.ConsultationEntity;
-import com.dentalcare.customerService.service.CustomerService;
-import com.dentalcare.customerService.util.Response;
+import com.bookmydent.customerService.controller.CustomerController;
+import com.bookmydent.customerService.dto.ConsultationDTO;
+import com.bookmydent.customerService.dto.CustomerDTO;
+import com.bookmydent.customerService.entity.ConsultationEntity;
+import com.bookmydent.customerService.service.CustomerService;
+import com.bookmydent.customerService.util.Response;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(CustomerController.class)

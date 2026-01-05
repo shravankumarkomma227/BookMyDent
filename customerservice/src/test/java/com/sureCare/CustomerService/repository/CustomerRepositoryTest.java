@@ -14,8 +14,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 
-import com.dentalcare.customerService.entity.Customer;
-import com.dentalcare.customerService.repository.CustomerRepository;
+import com.bookmydent.customerService.entity.Customer;
+import com.bookmydent.customerService.repository.CustomerRepository;
 
 @DataMongoTest
 public class CustomerRepositoryTest {
