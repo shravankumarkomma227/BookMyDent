@@ -1,0 +1,11 @@
+package com.dentalcare.notification_service.dto;
+
+import java.util.List;
+import lombok.Data;
+
+@Data
+public class Roles {
+	
+	private List<String> roles;
+
+}
