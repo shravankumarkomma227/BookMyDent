@@ -1,6 +1,5 @@
 # BookMyDent
-BookMyDent is a microservices based project which allow customers to book their dental services online and customers can interreact with other customers who already had treatment.
-customers can view reviews. BookMyDent platform helps customers to choose high-quality clinics.
+BookMyDent is a microservices based Application which allow customers to book their dental services online and customers can interreact with other customers who already had treatment. customers can view reviews. BookMyDent platform helps customers to choose high-quality clinics.
 
 # Tech Stack
 Java 
@@ -31,6 +30,14 @@ view available clinics
 Select Doctor and Doctor slot
 View appointment history
 Push Notifications
+
+# Prerequisites
+Before running project, make sure you have Oauth2 credentials and the followed installed
+Java 17+
+KeyCloak
+Apache Kafka
+Firebase project(firebase json key)
+ELK(for centralized logging monitoring)
 
 # Installation
 clone repository:
